@@ -1,10 +1,4 @@
-app = "telegram-bot-lune"
-
-[build]
-  builder = "paketobuildpacks/builder:base"
+app = "telegram-bot-lune"  # remplace si besoin
 
 [env]
-  BOT_TOKEN = "7964345406:AAEcOeDZWSDq_OE1uagKm1Dls7CuO3tIwl4"  # remplace par ton vrai token
-
-[processes]
-  app = "python main.py"
+  BOT_TOKEN = "7964345406:AAEcOeDZWSDq_OE1uagKm1Dls7CuO3tIwl4"
