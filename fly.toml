@@ -1,3 +1,7 @@
-app = "telegram-bot-lune"  # remplace si besoin
+app = "telegram-bot-lune"
 
+[build]
+builder = "Docker"
 
+[env]
+PORT = "8080"
