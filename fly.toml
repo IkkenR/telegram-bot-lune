@@ -3,5 +3,3 @@ app = "telegram-bot-lune"
 [build]
 builder = "Docker"
 
-[env]
-PORT = "8080"
