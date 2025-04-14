@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, ContextTypes, MessageHandler, filters
 import os
 
-TOKEN = os.getenv("7964345406:AAEcOeDZWSDq_OE1uagKm1Dls7CuO3tIwl4")
+TOKEN = os.getenv("BOT_TOKEN")
 MOT_SECRET = "lunevibrante"
 REPONSE_SECRETE = "✨ Bravo ! Le chiffre est : 7 🌙"
 
